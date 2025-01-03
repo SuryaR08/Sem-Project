@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ecotrack
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ecotrack
+  template:
+    metadata:
+      labels:
+        app: ecotrack
+    spec:
+      containers:
+      - name: ecotrack
+        image: surya080903/ecotrack:latest
+        ports:
+        - containerPort: 3001
+        env:
+        - name: DB_HOST
+          value: "mysql-db-service"  # Kubernetes service for the MySQL database
+        - name: DB_PORT
+          value: "3306"
+        - name: DB_USER
+          value: "root"
+        - name: DB_PASSWORD
+          value: "Surya@08"
+        - name: DB_NAME
+          value: "ecotrack"

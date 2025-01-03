@@ -1,0 +1,44 @@
+version: "3.8"
+
+services:
+  frontend:
+    build: ./client
+    container_name: react-ui
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - mern-network
+
+  backend:
+    build: ./server
+    container_name: node-api
+    ports:
+      - "3001:3001"
+    environment:
+      - DB_HOST=db  # Updated to use Docker service name
+      - DB_PORT=3306
+      - DB_USER=root
+      - DB_PASSWORD=Surya@08
+      - DB_NAME=ecotrack
+    depends_on:
+      - db
+    networks:
+      - mern-network
+
+  db:
+    image: mysql:8
+    container_name: mysql-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Surya@08
+      MYSQL_DATABASE: ecotrack
+    ports:
+      - "3307:3306"
+    networks:
+      - mern-network
+
+networks:
+  mern-network:
+    driver: bridge
