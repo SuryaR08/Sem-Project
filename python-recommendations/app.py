@@ -1,7 +1,9 @@
 from flask import Flask, jsonify, request
 from recommendation_logic import recommend_routes
+from flask_cors import CORS 
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/recommend-routes', methods=['POST'])
 def recommend_routes_api():
