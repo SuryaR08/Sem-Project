@@ -4,43 +4,43 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import '../Schedules.css';
 import { getSchedules } from '../services/scheduleService';
+import ICON from '../img/van.png';
 
-// Define garbage truck icon
+
 const vanIconMarker = L.icon({
-  iconUrl: '../img/van.png', // Example icon
+  iconUrl: ICON, 
   iconSize: [50, 50],
   iconAnchor: [25, 25],
 });
 
-// Define realistic paths (roads in Chennai)
+
 const vanPaths = [
   [
-    [13.0827, 80.2707],
-    [13.0830, 80.2725],
-    [13.0835, 80.2740],
     [13.0840, 80.2760],
+    [13.0835, 80.2740],
+    [13.0830, 80.2725],
+    [13.0827, 80.2707],
   ],
   [
-    [13.0850, 80.2740],
-    [13.0852, 80.2750],
-    [13.0855, 80.2765],
     [13.0860, 80.2780],
+    [13.0855, 80.2765],
+    [13.0852, 80.2750],
+    [13.0850, 80.2740],
   ],
   [
-    [13.0790, 80.2650],
-    [13.0795, 80.2660],
-    [13.0800, 80.2675],
     [13.0810, 80.2690],
+    [13.0800, 80.2675],
+    [13.0795, 80.2660],
+    [13.0790, 80.2650],
   ],
 ];
 
-// Utility function to interpolate between points
+
 const interpolate = (start, end, fraction) => [
   start[0] + (end[0] - start[0]) * fraction,
   start[1] + (end[1] - start[1]) * fraction,
 ];
 
-// Component to fit the map view dynamically
 const FitToBounds = ({ paths }) => {
   const map = useMap();
 
@@ -60,7 +60,6 @@ const Schedules = () => {
   const [segmentIndices, setSegmentIndices] = useState(vanPaths.map(() => 0));
   const intervalRef = useRef(null);
 
-  // Fetch schedules from the service
   useEffect(() => {
     const fetchSchedules = async () => {
       try {
@@ -74,20 +73,17 @@ const Schedules = () => {
     fetchSchedules();
   }, []);
 
-  // Simulate van movement
   useEffect(() => {
     intervalRef.current = setInterval(() => {
       setFractions((prevFractions) =>
         prevFractions.map((fraction, index) => {
           const currentPath = vanPaths[index];
           const currentSegmentIndex = segmentIndices[index];
-          const nextFraction = fraction + 0.01; // Adjust speed here
+          const nextFraction = fraction + 0.01; 
           if (nextFraction >= 1) {
-            // Move to the next segment
             if (currentSegmentIndex < currentPath.length - 2) {
               segmentIndices[index] = currentSegmentIndex + 1;
             } else {
-              // Stop at the end of the path
               return 1;
             }
             return 0;
@@ -105,9 +101,9 @@ const Schedules = () => {
           return interpolate(start, end, fractions[index]);
         })
       );
-    }, 100); // Update interval
+    }, 100); 
 
-    return () => clearInterval(intervalRef.current); // Cleanup on unmount
+    return () => clearInterval(intervalRef.current); 
   }, [fractions, segmentIndices]);
 
   return (

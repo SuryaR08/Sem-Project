@@ -1,0 +1,15 @@
+{
+    "nodes": ["depot", "T.Nagar", "AnnaNagar", "Velachery", "Adyar", "Guindy"],
+    "edges": [
+        {"from": "depot", "to": "T.Nagar", "distance": 5},
+        {"from": "depot", "to": "AnnaNagar", "distance": 12},
+        {"from": "depot", "to": "Velachery", "distance": 10},
+        {"from": "depot", "to": "Adyar", "distance": 8},
+        {"from": "depot", "to": "Guindy", "distance": 6},
+        {"from": "T.Nagar", "to": "AnnaNagar", "distance": 7},
+        {"from": "T.Nagar", "to": "Velachery", "distance": 5},
+        {"from": "T.Nagar", "to": "Adyar", "distance": 3},
+        {"from": "AnnaNagar", "to": "Guindy", "distance": 9},
+        {"from": "Velachery", "to": "Adyar", "distance": 2}
+    ]
+}
