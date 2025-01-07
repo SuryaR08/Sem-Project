@@ -1,241 +1,241 @@
 area,date,garbage_level
-T.Nagar,2025-01-01,620
-T.Nagar,2025-01-02,270
-T.Nagar,2025-01-03,175
-T.Nagar,2025-01-04,380
-T.Nagar,2025-01-05,285
-T.Nagar,2025-01-06,465
-T.Nagar,2025-01-07,255
-T.Nagar,2025-01-08,590
-T.Nagar,2025-01-09,395
-T.Nagar,2025-01-10,245
-T.Nagar,2025-01-11,180
-T.Nagar,2025-01-12,275
-T.Nagar,2025-01-13,260
-T.Nagar,2025-01-14,170
-T.Nagar,2025-01-15,290
-T.Nagar,2025-01-16,595
-T.Nagar,2025-01-17,485
-T.Nagar,2025-01-18,565
-T.Nagar,2025-01-19,370
-T.Nagar,2025-01-20,375
-T.Nagar,2025-01-21,280
-T.Nagar,2025-01-22,385
-T.Nagar,2025-01-23,290
-T.Nagar,2025-01-24,195
-T.Nagar,2025-01-25,260
-T.Nagar,2025-01-26,155
-T.Nagar,2025-01-27,270
-T.Nagar,2025-01-28,375
-T.Nagar,2025-01-29,280
-T.Nagar,2025-01-30,185
-Adyar,2025-01-01,950
-Adyar,2025-01-02,845
-Adyar,2025-01-03,260
-Adyar,2025-01-04,570
-Adyar,2025-01-05,480
-Adyar,2025-01-06,685
-Adyar,2025-01-07,875
-Adyar,2025-01-08,565
-Adyar,2025-01-09,295
-Adyar,2025-01-10,100
-Adyar,2025-01-11,555
-Adyar,2025-01-12,560
-Adyar,2025-01-13,750
-Adyar,2025-01-14,765
-Adyar,2025-01-15,580
-Adyar,2025-01-16,485
-Adyar,2025-01-17,690
-Adyar,2025-01-18,295
-Adyar,2025-01-19,765
-Adyar,2025-01-20,460
-Adyar,2025-01-21,955
-Adyar,2025-01-22,850
-Adyar,2025-01-23,470
-Adyar,2025-01-24,675
-Adyar,2025-01-25,480
-Adyar,2025-01-26,285
-Adyar,2025-01-27,290
-Adyar,2025-01-28,295
-Adyar,2025-01-29,100
-Adyar,2025-01-30,575
-Velachery,2025-01-01,475
-Velachery,2025-01-02,680
-Velachery,2025-01-03,285
-Velachery,2025-01-04,790
-Velachery,2025-01-05,595
-Velachery,2025-01-06,470
-Velachery,2025-01-07,565
-Velachery,2025-01-08,555
-Velachery,2025-01-09,100
-Velachery,2025-01-10,255
-Velachery,2025-01-11,160
-Velachery,2025-01-12,265
-Velachery,2025-01-13,470
-Velachery,2025-01-14,580
-Velachery,2025-01-15,385
-Velachery,2025-01-16,290
-Velachery,2025-01-17,295
-Velachery,2025-01-18,100
-Velachery,2025-01-19,105
-Velachery,2025-01-20,110
-Velachery,2025-01-21,485
-Velachery,2025-01-22,580
-Velachery,2025-01-23,375
-Velachery,2025-01-24,470
-Velachery,2025-01-25,265
-Velachery,2025-01-26,560
-Velachery,2025-01-27,655
-Velachery,2025-01-28,250
-Velachery,2025-01-29,545
-Velachery,2025-01-30,440
-Perungudi,2025-01-01,550
-Perungudi,2025-01-02,355
-Perungudi,2025-01-03,160
-Perungudi,2025-01-04,265
-Perungudi,2025-01-05,570
-Perungudi,2025-01-06,275
-Perungudi,2025-01-07,280
-Perungudi,2025-01-08,485
-Perungudi,2025-01-09,590
-Perungudi,2025-01-10,295
-Perungudi,2025-01-11,560
-Perungudi,2025-01-12,365
-Perungudi,2025-01-13,370
-Perungudi,2025-01-14,275
-Perungudi,2025-01-15,480
-Perungudi,2025-01-16,585
-Perungudi,2025-01-17,290
-Perungudi,2025-01-18,395
-Perungudi,2025-01-19,100
-Perungudi,2025-01-20,105
-Perungudi,2025-01-21,275
-Perungudi,2025-01-22,170
-Perungudi,2025-01-23,265
-Perungudi,2025-01-24,560
-Perungudi,2025-01-25,355
-Perungudi,2025-01-26,250
-Perungudi,2025-01-27,445
-Perungudi,2025-01-28,440
-Perungudi,2025-01-29,535
-Perungudi,2025-01-30,230
-Sholinganallur,2025-01-01,540
-Sholinganallur,2025-01-02,445
-Sholinganallur,2025-01-03,350
-Sholinganallur,2025-01-04,555
-Sholinganallur,2025-01-05,260
-Sholinganallur,2025-01-06,565
-Sholinganallur,2025-01-07,470
-Sholinganallur,2025-01-08,275
-Sholinganallur,2025-01-09,380
-Sholinganallur,2025-01-10,185
-Sholinganallur,2025-01-11,290
-Sholinganallur,2025-01-12,195
-Sholinganallur,2025-01-13,200
-Sholinganallur,2025-01-14,305
-Sholinganallur,2025-01-15,210
-Sholinganallur,2025-01-16,515
-Sholinganallur,2025-01-17,120
-Sholinganallur,2025-01-18,125
-Sholinganallur,2025-01-19,100
-Sholinganallur,2025-01-20,590
-Sholinganallur,2025-01-21,880
-Sholinganallur,2025-01-22,570
-Sholinganallur,2025-01-23,660
-Sholinganallur,2025-01-24,450
-Sholinganallur,2025-01-25,340
-Sholinganallur,2025-01-26,230
-Sholinganallur,2025-01-27,525
-Sholinganallur,2025-01-28,420
-Sholinganallur,2025-01-29,215
-Sholinganallur,2025-01-30,510
-Anna Nagar,2025-01-01,250
-Anna Nagar,2025-01-02,255
-Anna Nagar,2025-01-03,360
-Anna Nagar,2025-01-04,265
-Anna Nagar,2025-01-05,570
-Anna Nagar,2025-01-06,475
-Anna Nagar,2025-01-07,380
-Anna Nagar,2025-01-08,285
-Anna Nagar,2025-01-09,190
-Anna Nagar,2025-01-10,195
-Anna Nagar,2025-01-11,100
-Anna Nagar,2025-01-12,105
-Anna Nagar,2025-01-13,110
-Anna Nagar,2025-01-14,115
-Anna Nagar,2025-01-15,120
-Anna Nagar,2025-01-16,115
-Anna Nagar,2025-01-17,110
-Anna Nagar,2025-01-18,105
-Anna Nagar,2025-01-19,100
-Anna Nagar,2025-01-20,595
-Anna Nagar,2025-01-21,390
-Anna Nagar,2025-01-22,285
-Anna Nagar,2025-01-23,580
-Anna Nagar,2025-01-24,375
-Anna Nagar,2025-01-25,270
-Anna Nagar,2025-01-26,265
-Anna Nagar,2025-01-27,560
-Anna Nagar,2025-01-28,155
-Anna Nagar,2025-01-29,250
-Anna Nagar,2025-01-30,245
-Besant Nagar,2025-01-01,330
-Besant Nagar,2025-01-02,235
-Besant Nagar,2025-01-03,340
-Besant Nagar,2025-01-04,245
-Besant Nagar,2025-01-05,250
-Besant Nagar,2025-01-06,355
-Besant Nagar,2025-01-07,260
-Besant Nagar,2025-01-08,165
-Besant Nagar,2025-01-09,370
-Besant Nagar,2025-01-10,175
-Besant Nagar,2025-01-11,280
-Besant Nagar,2025-01-12,485
-Besant Nagar,2025-01-13,390
-Besant Nagar,2025-01-14,295
-Besant Nagar,2025-01-15,100
-Besant Nagar,2025-01-16,105
-Besant Nagar,2025-01-17,110
-Besant Nagar,2025-01-18,115
-Besant Nagar,2025-01-19,120
-Besant Nagar,2025-01-20,125
-Besant Nagar,2025-01-21,100
-Besant Nagar,2025-01-22,190
-Besant Nagar,2025-01-23,180
-Besant Nagar,2025-01-24,170
-Besant Nagar,2025-01-25,260
-Besant Nagar,2025-01-26,150
-Besant Nagar,2025-01-27,140
-Besant Nagar,2025-01-28,130
-Besant Nagar,2025-01-29,120
-Besant Nagar,2025-01-30,110
-Mylapore,2025-01-01,140
-Mylapore,2025-01-02,145
-Mylapore,2025-01-03,150
-Mylapore,2025-01-04,155
-Mylapore,2025-01-05,260
-Mylapore,2025-01-06,465
-Mylapore,2025-01-07,370
-Mylapore,2025-01-08,275
-Mylapore,2025-01-09,180
-Mylapore,2025-01-10,185
-Mylapore,2025-01-11,290
-Mylapore,2025-01-12,195
-Mylapore,2025-01-13,100
-Mylapore,2025-01-14,105
-Mylapore,2025-01-15,110
-Mylapore,2025-01-16,115
-Mylapore,2025-01-17,120
-Mylapore,2025-01-18,125
-Mylapore,2025-01-19,130
-Mylapore,2025-01-20,135
-Mylapore,2025-01-21,525
-Mylapore,2025-01-22,215
-Mylapore,2025-01-23,105
-Mylapore,2025-01-24,495
-Mylapore,2025-01-25,385
-Mylapore,2025-01-26,475
-Mylapore,2025-01-27,165
-Mylapore,2025-01-28,355
-Mylapore,2025-01-29,545
-Mylapore,2025-01-30,235
+T.Nagar,2025-01-01,620.465
+T.Nagar,2025-01-02,275.56
+T.Nagar,2025-01-03,175.46
+T.Nagar,2025-01-04,386.78
+T.Nagar,2025-01-05,285.62
+T.Nagar,2025-01-06,465.15
+T.Nagar,2025-01-07,255.56
+T.Nagar,2025-01-08,595.89
+T.Nagar,2025-01-09,395.46
+T.Nagar,2025-01-10,245.34
+T.Nagar,2025-01-11,980.26
+T.Nagar,2025-01-12,875.78
+T.Nagar,2025-01-13,262.46
+T.Nagar,2025-01-14,570.52
+T.Nagar,2025-01-15,396.89
+T.Nagar,2025-01-16,695.79
+T.Nagar,2025-01-17,485.48
+T.Nagar,2025-01-18,565.79
+T.Nagar,2025-01-19,570.37
+T.Nagar,2025-01-20,875.78
+T.Nagar,2025-01-21,280.29
+T.Nagar,2025-01-22,385.46
+T.Nagar,2025-01-23,292.26
+T.Nagar,2025-01-24,195.46
+T.Nagar,2025-01-25,260.89
+T.Nagar,2025-01-26,155.94
+T.Nagar,2025-01-27,270.34
+T.Nagar,2025-01-28,375.31
+T.Nagar,2025-01-29,280.42
+T.Nagar,2025-01-30,185.46
+Adyar,2025-01-01,952.49
+Adyar,2025-01-02,445.356
+Adyar,2025-01-03,262.42
+Adyar,2025-01-04,477.46
+Adyar,2025-01-05,387.64
+Adyar,2025-01-06,285.31
+Adyar,2025-01-07,475.345
+Adyar,2025-01-08,565.054
+Adyar,2025-01-09,295.05
+Adyar,2025-01-10,524.234
+Adyar,2025-01-11,555.135
+Adyar,2025-01-12,564.13
+Adyar,2025-01-13,752.62
+Adyar,2025-01-14,765.46
+Adyar,2025-01-15,581.46
+Adyar,2025-01-16,485.13
+Adyar,2025-01-17,996.51
+Adyar,2025-01-18,295.64
+Adyar,2025-01-19,765.91
+Adyar,2025-01-20,467.61
+Adyar,2025-01-21,455.84
+Adyar,2025-01-22,251.46
+Adyar,2025-01-23,474.25
+Adyar,2025-01-24,675.52
+Adyar,2025-01-25,483.31
+Adyar,2025-01-26,285.13
+Adyar,2025-01-27,794.02
+Adyar,2025-01-28,515.45
+Adyar,2025-01-29,507.52
+Adyar,2025-01-30,575.15
+Velachery,2025-01-01,475.13
+Velachery,2025-01-02,682.5
+Velachery,2025-01-03,285.46
+Velachery,2025-01-04,791.2
+Velachery,2025-01-05,595.132
+Velachery,2025-01-06,474.052
+Velachery,2025-01-07,565.05
+Velachery,2025-01-08,555.05
+Velachery,2025-01-09,800.21
+Velachery,2025-01-10,255.416
+Velachery,2025-01-11,161.46
+Velachery,2025-01-12,265.45
+Velachery,2025-01-13,470.45
+Velachery,2025-01-14,585.20
+Velachery,2025-01-15,385.52
+Velachery,2025-01-16,290.244
+Velachery,2025-01-17,295.26
+Velachery,2025-01-18,805.2
+Velachery,2025-01-19,105.65
+Velachery,2025-01-20,910.46
+Velachery,2025-01-21,485.26
+Velachery,2025-01-22,585.56
+Velachery,2025-01-23,375.23
+Velachery,2025-01-24,474.253
+Velachery,2025-01-25,265.546
+Velachery,2025-01-26,567.465
+Velachery,2025-01-27,655.345
+Velachery,2025-01-28,250.946
+Velachery,2025-01-29,545.92
+Velachery,2025-01-30,440.92
+Perungudi,2025-01-01,550.85
+Perungudi,2025-01-02,355.26
+Perungudi,2025-01-03,160.46
+Perungudi,2025-01-04,265.23
+Perungudi,2025-01-05,570.46
+Perungudi,2025-01-06,275.46
+Perungudi,2025-01-07,280.46
+Perungudi,2025-01-08,485.23
+Perungudi,2025-01-09,590.465
+Perungudi,2025-01-10,295.23
+Perungudi,2025-01-11,566.36
+Perungudi,2025-01-12,365.78
+Perungudi,2025-01-13,370.34
+Perungudi,2025-01-14,275.16
+Perungudi,2025-01-15,480.45
+Perungudi,2025-01-16,585.526
+Perungudi,2025-01-17,290.78
+Perungudi,2025-01-18,395.56
+Perungudi,2025-01-19,105.4
+Perungudi,2025-01-20,405.82
+Perungudi,2025-01-21,275.26
+Perungudi,2025-01-22,870.91
+Perungudi,2025-01-23,265.82
+Perungudi,2025-01-24,560.34
+Perungudi,2025-01-25,355.02
+Perungudi,2025-01-26,850.2
+Perungudi,2025-01-27,445.46
+Perungudi,2025-01-28,440.75
+Perungudi,2025-01-29,535.64
+Perungudi,2025-01-30,230.72
+Sholinganallur,2025-01-01,540.562
+Sholinganallur,2025-01-02,445.354
+Sholinganallur,2025-01-03,350.235
+Sholinganallur,2025-01-04,555.15
+Sholinganallur,2025-01-05,260.26
+Sholinganallur,2025-01-06,565.45
+Sholinganallur,2025-01-07,470.45
+Sholinganallur,2025-01-08,275.92
+Sholinganallur,2025-01-09,380.48
+Sholinganallur,2025-01-10,885.65
+Sholinganallur,2025-01-11,290.15
+Sholinganallur,2025-01-12,195.2
+Sholinganallur,2025-01-13,200.52
+Sholinganallur,2025-01-14,305.63
+Sholinganallur,2025-01-15,210.56
+Sholinganallur,2025-01-16,515.45
+Sholinganallur,2025-01-17,620.48
+Sholinganallur,2025-01-18,925.48
+Sholinganallur,2025-01-19,500.46
+Sholinganallur,2025-01-20,590.35
+Sholinganallur,2025-01-21,880.47
+Sholinganallur,2025-01-22,570.5
+Sholinganallur,2025-01-23,660.62
+Sholinganallur,2025-01-24,450.49
+Sholinganallur,2025-01-25,340.46
+Sholinganallur,2025-01-26,230.45
+Sholinganallur,2025-01-27,525.05
+Sholinganallur,2025-01-28,720.45
+Sholinganallur,2025-01-29,815.02
+Sholinganallur,2025-01-30,510.45
+Anna Nagar,2025-01-01,250.102
+Anna Nagar,2025-01-02,855.21
+Anna Nagar,2025-01-03,360.23
+Anna Nagar,2025-01-04,265.78
+Anna Nagar,2025-01-05,570.44
+Anna Nagar,2025-01-06,475.56
+Anna Nagar,2025-01-07,380.46
+Anna Nagar,2025-01-08,285.45
+Anna Nagar,2025-01-09,190.145
+Anna Nagar,2025-01-10,895.01
+Anna Nagar,2025-01-11,100.46
+Anna Nagar,2025-01-12,805.46
+Anna Nagar,2025-01-13,110.99
+Anna Nagar,2025-01-14,115.62
+Anna Nagar,2025-01-15,520.35
+Anna Nagar,2025-01-16,415.64
+Anna Nagar,2025-01-17,510.46
+Anna Nagar,2025-01-18,105.546
+Anna Nagar,2025-01-19,700.124
+Anna Nagar,2025-01-20,595.15
+Anna Nagar,2025-01-21,390.02
+Anna Nagar,2025-01-22,285.12
+Anna Nagar,2025-01-23,580.56
+Anna Nagar,2025-01-24,375.34
+Anna Nagar,2025-01-25,270.02
+Anna Nagar,2025-01-26,265.45
+Anna Nagar,2025-01-27,560.32
+Anna Nagar,2025-01-28,155.565
+Anna Nagar,2025-01-29,250.46
+Anna Nagar,2025-01-30,245.65
+Besant Nagar,2025-01-01,330.56
+Besant Nagar,2025-01-02,935.02
+Besant Nagar,2025-01-03,840.45
+Besant Nagar,2025-01-04,245.46
+Besant Nagar,2025-01-05,250.36
+Besant Nagar,2025-01-06,355.42
+Besant Nagar,2025-01-07,260.465
+Besant Nagar,2025-01-08,165.78
+Besant Nagar,2025-01-09,370.45
+Besant Nagar,2025-01-10,975.132
+Besant Nagar,2025-01-11,880.154
+Besant Nagar,2025-01-12,485.132
+Besant Nagar,2025-01-13,390.79
+Besant Nagar,2025-01-14,595.45
+Besant Nagar,2025-01-15,700.132
+Besant Nagar,2025-01-16,105.45
+Besant Nagar,2025-01-17,110.46
+Besant Nagar,2025-01-18,115.32
+Besant Nagar,2025-01-19,820.02
+Besant Nagar,2025-01-20,125.46
+Besant Nagar,2025-01-21,900.35
+Besant Nagar,2025-01-22,190.62
+Besant Nagar,2025-01-23,180.45
+Besant Nagar,2025-01-24,170.125
+Besant Nagar,2025-01-25,260.256
+Besant Nagar,2025-01-26,450.352
+Besant Nagar,2025-01-27,140.46
+Besant Nagar,2025-01-28,130.45
+Besant Nagar,2025-01-29,520.32
+Besant Nagar,2025-01-30,410.312
+Mylapore,2025-01-01,240.79
+Mylapore,2025-01-02,145.78
+Mylapore,2025-01-03,154.45
+Mylapore,2025-01-04,255.366
+Mylapore,2025-01-05,263.98
+Mylapore,2025-01-06,465.36
+Mylapore,2025-01-07,370.78
+Mylapore,2025-01-08,275.46
+Mylapore,2025-01-09,382.56
+Mylapore,2025-01-10,185.056
+Mylapore,2025-01-11,290.012
+Mylapore,2025-01-12,195.36
+Mylapore,2025-01-13,705.56
+Mylapore,2025-01-14,795.234
+Mylapore,2025-01-15,110.78
+Mylapore,2025-01-16,415.46
+Mylapore,2025-01-17,120.478
+Mylapore,2025-01-18,525.465
+Mylapore,2025-01-19,130.46
+Mylapore,2025-01-20,235.13
+Mylapore,2025-01-21,525.79
+Mylapore,2025-01-22,715.46
+Mylapore,2025-01-23,805.364
+Mylapore,2025-01-24,495.47
+Mylapore,2025-01-25,385.466
+Mylapore,2025-01-26,475.46
+Mylapore,2025-01-27,165.323
+Mylapore,2025-01-28,355.645
+Mylapore,2025-01-29,545.12
+Mylapore,2025-01-30,535.25
