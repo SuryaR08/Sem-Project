@@ -6,7 +6,9 @@ import json
 import numpy as np
 
 def load_data():
-    garbage_data = pd.read_csv('data/garbage_data.csv')
+    garbage_data = pd.read_csv('data/garbage_data.csv', parse_dates=['date'])
+    print(garbage_data.head())
+    garbage_data.set_index('date', inplace=True)
     with open('data/city_graph.json', 'r') as f:
         city_graph = json.load(f)
     return garbage_data, city_graph
@@ -16,9 +18,12 @@ def predict_garbage_levels(date, garbage_data):
     areas = garbage_data['area'].unique()
     
     for area in areas:
-        area_data = garbage_data[garbage_data['area'] == area]
+        area_data = garbage_data[garbage_data['area'] == area].copy()
         
-        # Simulating garbage levels if data is insufficient
+        # Ensure the data is sorted by date
+        area_data.sort_index(inplace=True)
+        
+        # Check if sufficient data exists
         if len(area_data) < 5:
             prediction = np.random.randint(20, 70)  # Simulated range of garbage levels
         else:
@@ -27,7 +32,7 @@ def predict_garbage_levels(date, garbage_data):
                 area_series = area_data['garbage_level']
                 
                 # Using ARIMA model for prediction
-                model = ARIMA(area_series, order=(1, 1, 1))  # Tuned parameters
+                model = ARIMA(area_series, order=(1, 1, 1))  # Adjusted ARIMA order
                 model_fit = model.fit()
                 
                 # Predicting the next day's garbage level
@@ -38,12 +43,16 @@ def predict_garbage_levels(date, garbage_data):
                 
         predictions.append({"area": area, "predicted_garbage_level": round(prediction, 2)})
     
+    # Sort predictions by predicted_garbage_level in descending order
+    predictions = sorted(predictions, key=lambda x: x['predicted_garbage_level'], reverse=True)
+    
     print(f"Predictions for {date}: {predictions}")
     return predictions
 
+
 def find_shortest_routes(predictions, city_graph):
     # Filtering bins with high predicted garbage levels (threshold > 40)
-    high_priority_bins = [pred for pred in predictions if pred['predicted_garbage_level'] > 40]
+    high_priority_bins = predictions  # Already sorted by garbage level
     
     # Create graph using NetworkX
     G = nx.Graph()
@@ -70,8 +79,8 @@ def find_shortest_routes(predictions, city_graph):
         except nx.NetworkXNoPath:
             print(f"No path found to area {area}")
     
-    # Sorting routes by total distance (ascending) and garbage level (descending priority)
-    routes = sorted(routes, key=lambda x: (x['total_distance'], -x['predicted_garbage_level']))
+    # Sort routes by predicted garbage level in descending order (already sorted by input order if predictions were sorted)
+    routes = sorted(routes, key=lambda x: x['predicted_garbage_level'], reverse=True)
     return routes
 
 def recommend_routes(date):
@@ -87,6 +96,6 @@ def recommend_routes(date):
     # Display recommended routes
     print(f"Recommended routes for {date}:")
     for route in routes:
-        print(f"Route to {route['area']}: {route['route']} with distance {route['total_distance']} km")
+        print(f"Route to {route['area']}: {route['route']} with distance {route['total_distance']} km and predicted garbage level {route['predicted_garbage_level']}")
     
     return routes

@@ -105,7 +105,8 @@ const ScheduleAllocation = () => {
             ) : (
               recommendedRoutes.map((route, index) => (
                 <option key={index} value={route.route.join(" -> ")}>
-                  {route.route.join(" -> ")} (Total Distance: {route.total_distance} km)
+                  {route.route.join(" -> ")} (Total Distance: {route.total_distance} km, Garbage Level:{" "}
+                  {route.predicted_garbage_level})
                 </option>
               ))
             )}
